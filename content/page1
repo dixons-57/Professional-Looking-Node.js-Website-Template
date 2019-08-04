@@ -1,0 +1,33 @@
+<table class="mobileBlock"><tr class="mobileBlock"><td class="mobileBlock" style="vertical-align:top;">
+This is the start page. Content is taken from /content/page1 and is written in html. Try zooming all the way in as far as your browser will go, and then shrinking the size of your browser window. You should see the site resize into mobile mode! This is achieved using pure CSS, look in /public/styles/style.css
+<br><br>
+
+To add static pages, you can create extensionless files with html content just like this one, and put them in the /content folder. Then add a line to /dynamic/contentList to give it a cosmetic name for the navigation bar.
+<br><br>
+
+Set the banner contents in /dynamic/createInterface.js.
+<br><br>
+
+The site downloads the jQuery library to the client's PC, in order to allow the browser to download and inject content straight into this center section (this is known as AJAX), without the browser having to navigate between pages! 
+
+<br><br>
+The server itself requires Node.js, and is essentially just a Node.js program. This allows javascript to be used to generate and serve html content dynamically from the server. The interface html is generated dynamically! 
+Look in /dynamic/createInterface.js to see for yourself.
+
+<td style="width:30%;vertical-align:top;padding-left:8px;" class="mobileBlock">
+<br class="mobileShow"><br class="mobileShow">    
+    <span class="expandablelink" id="table1link" onclick="showText('table1link','table1text')"><strong>First foldable table</strong>: [-] </span><br>
+<div class="expand paddedContainer" id="table1text">
+       First set of text that can be folded up
+</div><br>
+
+    <span class="expandablelink" id="table2link" onclick="showText('table2link','table2text')"><strong>Second foldable table</strong>: [-] </span><br>
+<div class="expand paddedContainer" id="table2text">
+    Second set of text that can be folded up
+</div><br>
+
+    <span class="expandablelink" id="table3link" onclick="showText('table3link','table3text')"><strong>Third foldable table</strong>: [-] </span><br>
+<div class="expand paddedContainer" id="table3text">
+ Third set of text that can be folded up
+      </div>
+</td></tr></table>

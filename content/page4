@@ -1,0 +1,45 @@
+This page uses really cool images with preview thumbnails. Clicking on the preview thumbnail shows a full size image that takes over the whole screen.<br><br>
+
+Thumbnail images should be placed in /public/thumbImages. Full size images should be placed in /public/fullImages. Matching thumbnail and full size images should have the same name and same relative path within their respective folders. e.g. /public/thumbImages/section1/image.jpg and /public/fullImages/section1/image.jpg. This makes the server template automatically locate the correct image to load when clicking on the thumbnail.<br><br>
+
+<div style="padding-bottom:8px">Jump to:</div>
+<div id="topLinks" class="inPageLinks paddedContainer">
+<ol>
+<li><a href="#FirstInternalLink">First internal section</a>
+<li><a href="#SecondInternalLink">Second internal section</a>
+</ol>
+</div>
+<br><br>
+<hr>
+
+<table style="width:100%">
+<tr><td><h2 style="display:inline-block;" id="FirstInternalLink">1. First internal section</h2></td><td style="text-align:right" nowrap><a href="#topLinks">&uarr; Top</a></td></tr>
+</table>
+First section description
+<table style="width:100%">
+<tr><td><h4 style="display:inline-block;">Screenshot subsection</h4></td><td style="text-align:right" nowrap><a href="#FirstInternalLink">&uarr; Section</a></td></tr>
+</table>
+<div style="text-align:center">
+<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="First image title/caption">
+<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Second image title/caption">
+      <img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Third image title/caption">
+      <img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Fourth image title/caption">
+      <img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Fifth image title/caption">
+      <img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Sixth image title/caption">
+	<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Seventh image title/caption">
+	<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Eighth image title/caption">
+	</div>
+
+<hr>
+<table style="width:100%">
+<tr><td><h2 style="display:inline-block;" id="SecondInternalLink">2. Second internal section</h2></td><td style="text-align:right" nowrap><a href="#topLinks">&uarr; Top</a></td></tr>
+</table>
+Second section description
+<table style="width:100%">
+<tr><td><h4 style="display:inline-block;">Screenshot subsection</h4></td><td style="text-align:right" nowrap><a href="#SecondInternalLink">&uarr; Section</a></td></tr>
+</table>
+<div style="text-align:center">
+<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="First image title/caption>
+<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Second image title/caption">
+<img class="thumbnail" alt="Loading image..." src="thumbImages/example/Image1.jpg" title="Third image title/caption">
+</div>

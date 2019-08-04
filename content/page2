@@ -1,0 +1,39 @@
+This is a page containing some tabulated data. Its contents are taken from content/page2 and is written in html.<br><br>
+
+The tables all have synchronised column widths.
+
+<h2>Level 2 heading</h2>
+<br>
+<div class="expand">
+<table style="width:100%"><tr class="mobileBlock"><td class="mobileBlock">First table heading<br><br class="mobileShow"></td><td class="mobileBlock" nowrap style="text-align:right">Right-hand side text 1</td></tr>
+  <tr class="mobileBlock"><td class="mobileBlock"><br>
+<table class="synctable">
+<tr class="mobileBlock"><td class="mobileBlock" style="vertical-align:top" nowrap><strong>First section:</strong></td><td class="mobileBlock">First data</td></tr>
+<tr class="mobileBlock"><td class="mobileBlock" style="vertical-align:top" nowrap><br class="mobileShow"><strong>Second section:</strong></td><td class="mobileBlock">
+    <ol><li>Ordered list item 1
+       	<li>Ordered list item 2
+         <li>Ordered list item 3
+	   </ol>
+</td></tr>
+</table>
+</td><td></td></tr></table>
+</div>
+
+<br>
+
+<div class="expand">
+<table style="width:100%"><tr class="mobileBlock"><td class="mobileBlock">Second table heading<br><br class="mobileShow"></td><td class="mobileBlock" nowrap style="text-align:right">Right-hand side text 2</td></tr>
+  <tr class="mobileBlock"><td class="mobileBlock"><br>
+<table class="synctable">
+<tr class="mobileBlock"><td class="mobileBlock" style="vertical-align:top" nowrap><strong>First section:</strong></td><td class="mobileBlock">First data</td></tr>
+<tr class="mobileBlock"><td class="mobileBlock" style="vertical-align:top" nowrap><br class="mobileShow"><strong>Second section:</strong></td><td class="mobileBlock">    
+  <ol><li>Ordered list item 1
+  <li>Ordered list item 2
+  <li>Ordered list item 3
+</ol></td></tr>
+<tr><td class="mobileBlock" style="vertical-align:top" nowrap><br class="mobileShow"><strong>Third section:</strong></td><td class="mobileBlock">Third data</td></tr>
+</table>
+    </td><td></td></tr></table>
+</div>
+
+<br>

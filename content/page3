@@ -1,0 +1,34 @@
+This is a page containing some sort of glossary/list data. Its contents are taken from content/page3 and is written in html.<br><br>
+
+Some data is hidden by default using CSS but can be shown/hidden by clicking the link. This is a useful technique if you have optional data that you don't wish to overwhelm the user with by default. <br><br>
+
+This sort of page is useful for showing a list of publications.<br><br>
+
+<h2>Year 1</h2>
+Author 1 <br class="mobileShow"><strong>Article title 1</strong><br>
+<em>Conference title 1</em>, Book or journal 1<br>
+<small><span class="expandablelink" id="firstlink" onclick="showText('firstlink','firstabstract')">[Abstract1 +]</span> <a style="padding-left:4px" href="Downloads/FirstPDF.pdf">[Slides 1]</a></small>
+<div style="margin: 0px; padding:0px; clear: both; height: 6px"></div>
+<div class="expand paddedContainer" id="firstabstract" style="display:none">
+  This section contains lots and lots of text. You can put an entire paragraph in here and there's no need to worry about a visible infodump, as it is hidden all nice and tidy.
+</div>
+<br>
+
+<h2>Year 2</h2>
+Author 2 <br class="mobileShow"><strong>Article title 2</strong><br>
+<em>Conference title 2</em>, Book or journal 2<br>
+<small><span class="expandablelink" id="secondlink" onclick="showText('secondlink','secondabstract')">[Abstract2 +]</span> <a style="padding-left:4px" href="Downloads/SecondPDF.pdf">[Slides 2]</a></small>
+<div style="margin: 0px; padding:0px; clear: both; height: 6px"></div>
+<div class="expand paddedContainer" id="secondabstract" style="display:none">
+  This section can also contain lots and lots of text, tidily hidden away, like the above.
+</div>
+<br>
+
+Author 3 <br class="mobileShow"><strong>Article title 3</strong><br>
+<em>Conference title 3</em>, Book or journal 3<br>
+<small><span class="expandablelink" id="thirdlink" onclick="showText('thirdlink','thirdabstract')">[Abstract3 +]</span> <a style="padding-left:4px" href="Downloads/ThirdPDF.pdf">[Slides 3]</a></small>
+<div style="margin: 0px; padding:0px; clear: both; height: 6px"></div>
+<div class="expand paddedContainer" id="thirdabstract" style="display:none">
+  Once again. Feel free to fill this kind of thing with tons of text, or even images!
+</div>
+<br>
