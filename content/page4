@@ -1,4 +1,4 @@
-This page uses really cool images with preview thumbnails. Clicking on the preview thumbnail shows a full size image that takes over the whole screen.<br><br>
+This page uses really cool images with preview thumbnails. The contents are taken from /content/page4. Clicking on the preview thumbnail shows a full size image that takes over the whole screen.<br><br>
 
 Thumbnail images should be placed in /public/thumbImages. Full size images should be placed in /public/fullImages. Matching thumbnail and full size images should have the same name and same relative path within their respective folders. e.g. /public/thumbImages/section1/image.jpg and /public/fullImages/section1/image.jpg. This makes the server template automatically locate the correct image to load when clicking on the thumbnail.<br><br>
 

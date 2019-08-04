@@ -1,4 +1,4 @@
-This is a page containing some sort of glossary/list data. Its contents are taken from content/page3 and is written in html.<br><br>
+This is a page containing some sort of glossary/list data. Its contents are taken from /content/page3 and is written in html.<br><br>
 
 Some data is hidden by default using CSS but can be shown/hidden by clicking the link. This is a useful technique if you have optional data that you don't wish to overwhelm the user with by default. <br><br>
 
